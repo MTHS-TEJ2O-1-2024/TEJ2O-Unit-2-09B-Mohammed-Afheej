@@ -49,6 +49,7 @@ input.onButtonPressed(Button.A, function () {
 })
 
 input.onButtonPressed(Button.B, function () {
+    basic.clearScreen()
     basic.showString("Score: " + totalPoint)
     basic.showIcon(IconNames.Happy)
 })
