@@ -42,12 +42,14 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 
+//
 input.onButtonPressed(Button.A, function () {
     totalPoint = totalPoint + 1
     basic.showIcon(IconNames.Yes)
     basic.showIcon(IconNames.Happy)
 })
 
+//
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showString("Score: " + totalPoint)
